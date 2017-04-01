@@ -1,0 +1,103 @@
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0;
+
+  /* new stuff below  */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  background: linear-gradient(to bottom, white, azure);
+}
+
+section {
+  padding: 10px;
+  max-width: 960px;
+  margin: auto;
+  background-color: white;
+}
+
+footer {
+  padding: 10px;
+  border-top: 2px dashed goldenrod;
+  text-align: center;
+}
+
+.alternate-color {
+  color: darkgoldenrod;
+}
+
+.main-header {
+  height: 230px;
+  background-image: url("http://www.photl.com/images/photos/2011/01/29/2322/wm349252tt.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.intro {
+  font-family:arial;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.section-header {
+  height: 200px;
+  border-top: 3px solid grey;
+  background-image: url("https://raw.githubusercontent.com/wdi-sg/smart-coding-101/master/images/bgs/3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstly{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family:Arial;
+}
+
+.School{
+  width: 10%; 
+}
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link-item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5px;
+  padding: 5px;
+  background-color: chartreuse;
+  letter-spacing: 0.3em;
+  color: black;
+  text-decoration: none;
+  transition: all 1s;
+}
+.link-item:hover {
+  background-color: Paleturquoise;
+}
